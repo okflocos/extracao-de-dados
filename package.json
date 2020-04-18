@@ -31,6 +31,9 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.9",
+    "puppeteer": "^3.0.0",
     "tslib": "~1.10.0"
   }
 }
