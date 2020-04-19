@@ -16,7 +16,7 @@ Para cada resultado da pesquisa, é necessário extrair as seguintes informaçõ
 - Situação
 - Assunto
 - Autor
-- Cardápio
+- Ementa
 - Processo do Projeto (Projeto, Entrada, Prazo, Devolução)
 
 ## Executando
