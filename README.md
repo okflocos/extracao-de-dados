@@ -19,6 +19,14 @@ Para cada resultado da pesquisa, é necessário extrair as seguintes informaçõ
 - Cardápio
 - Processo do Projeto (Projeto, Entrada, Prazo, Devolução)
 
+## Executando
+
+- Você pode executar o arquivo em seu terminal depois de efetuar todas as instalaçôes necessárias digitando :
+npm run build
+node build/src/main.js
+
+- Após executar o comando ele irá abrir uma aba rapidamente mostrando informaçes e executando a extração e enviando ao MongoDB (que é o banco de dados que foi utilizado)
+
 # node-typescript-boilerplate
 
 👩🏻‍💻 Pronto para desenvolvedor: um modelo abrangente. Funciona imediatamente para a maioria dos projetos [Node.js] [nodejs].
@@ -48,7 +56,6 @@ Para começar, basta clicar no **[Use template][repo-template-action]** link (ou
 # Clonar repositorio
 
 Para clonar o repositório, use os seguintes comandos:
-
 
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
 cd node-typescript-boilerplate
