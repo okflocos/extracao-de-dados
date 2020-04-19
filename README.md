@@ -5,88 +5,86 @@
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 [![Sponsor][sponsor-badge]][sponsor]
 
-# Objective
+# Objetivo do Desafio 
 
-The focus of this challenge was to extract data from a website, thus extracting various information from the pages of that website with Typescript and NodeJS using Puppeteer for scraping. The extracted information was sent to MongoDB, I extracted it with the given word "transport".
+O foco desse desafio foi extrair dados de um site, extraindo assim várias informações das páginas desse site com o Typescript e o NodeJS usando o Puppeteer para a raspagem. As informações extraídas foram enviadas para o MongoDB, eu as extraí com a palavra "transporte".
 
 
-For each search result, it is necessary to extract the following information from each page:
-- Main title (ex: Ordinary Bill (L) 103/2019)
-- Date
-- Situation
-- Subject matter
-- Author
-- Menu
-- Project Process (Project, Entry, Deadline, Return)
+Para cada resultado da pesquisa, é necessário extrair as seguintes informações de cada página:
+- Título principal (ex: Projeto de lei ordinário (L) 103/2019)
+- Encontro
+- Situação
+- Assunto
+- Autor
+- Cardápio
+- Processo do Projeto (Projeto, Entrada, Prazo, Devolução)
 
 # node-typescript-boilerplate
 
-👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
+👩🏻‍💻 Pronto para desenvolvedor: um modelo abrangente. Funciona imediatamente para a maioria dos projetos [Node.js] [nodejs].
 
-🏃🏽 Instant Value: All basic tools included and configured:
+🏃🏽 Valor instantâneo: todas as ferramentas básicas incluídas e configuradas:
 
 + [TypeScript][typescript] [3.8][typescript-38]
-+ [ESLint][eslint] with some initial rules recommendation
-+ [Jest][jest] for fast unit testing and code coverage
-+ Type definitions for Node.js and Jest
-+ [Prettier][prettier] to enforce consistent code style
-+ NPM [scripts](#available-scripts) for common operations
-+ simple example of TypeScript code and unit test
-+ .editorconfig for consistent file format
-+ example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
++ [ESLint][eslint] com algumas recomendações de regras iniciais
++ [Jest][jest] para testes rápidos de unidade e cobertura de código
++ Definições de tipo para Node.js e Jest
++ [Prettier][prettier] para impor estilo de código consistente
++ NPM [scripts](#available-scripts) para operações comuns
++ Exemplo simples de código TypeScript e teste de unidade
++ .Editorconfig para um formato de arquivo consistente
++ Exemplo de configuração para [GitHub Actions][gh-actions] e [Travis CI][travis]
 
-🤲 Free as in speech: available under the APLv2 license.
+🤲 Livre como no discurso: disponível sob a licença APLv2.
 
-## Getting Started
+## Começando
 
-This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
+Este projeto deve ser usado com a versão mais recente do Active LTS do [Node.js][nodejs]
 
-### Use as a repository template
+### Use como um modelo de repositório
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button). Now start adding your code in the `src` and unit tests in the `__tests__` directories.
+Para começar, basta clicar no **[Use template][repo-template-action]** link (ou no botão verde). Agora comece a adicionar seu código no diretório `src` e testes de unidade no `__tests__` diretórios.
 
-### Clone repository
+# Clonar repositorio
 
-To clone the repository use the following commands:
+Para clonar o repositório, use os seguintes comandos:
 
-```sh
+
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
 cd node-typescript-boilerplate
 npm install
-```
 
-### Download latest release
+### Baixe a última versão
 
-Download and unzip current `master` branch or one of tags:
+Baixe e descompacte o arquivo atual `master` ramo ou uma das tags:
 
-```sh
+
 wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate.zip
 unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
-```
 
-## Available Scripts
+## Scripts disponíveis
 
-+ `clean` - remove coverage data, Jest cache and transpiled files,
-+ `build` - transpile TypeScript to ES6,
-+ `build:watch` - interactive watch mode to automatically transpile source files,
-+ `lint` - lint source files and tests,
-+ `test` - run tests,
-+ `test:watch` - interactive watch mode to automatically re-run tests
++ ``clean`` - remova dados de cobertura, cache Jest e arquivos transpilados,
++ ``build`` - transpile TypeScript para ES6,
++ ``build:watch`` - modo de exibição interativo para transpilar arquivos de origem automaticamente,
++ ``lint`` - arquivos e testes de origem do lint,
++ ``test`` - executar testes,
++ ``test:watch`` - modo de exibição interativo para executar novamente automaticamente os testes
 
-## Additional Informations
+## Informações adicionais
 
-### Writing tests in JavaScript
+### Escrevendo testes em JavaScript
 
-Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
+Às vezes, escrever testes de unidade no TypeScript pode ser problemático e confuso. Especialmente quando zombando de dependências e usando espiões.
 
-This is **optional**, but if you want to learn how to write JavaScript tests for TypeScript modules, read the [corresponding wiki page][wiki-js-tests].
+Isso é ** opcional ** mas se você quiser aprender a escrever testes JavaScript para módulos TypeScript, leia o [corresponding wiki page][wiki-js-tests].
 
-## Backers & Sponsors
+## Apoiantes e patrocinadores
 
-Support this project by becoming a sponsor.
+Apoie este projeto tornando-se um patrocinador..
 
-## License
-Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
+## Licença
+Licenciado sob o APLv2. Veja o [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) arquivo para obter detalhes.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-3.8-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.13-blue.svg
