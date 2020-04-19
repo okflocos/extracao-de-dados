@@ -5,6 +5,20 @@
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 [![Sponsor][sponsor-badge]][sponsor]
 
+# Objective
+
+The focus of this challenge was to extract data from a website, thus extracting various information from the pages of that website with Typescript and NodeJS using Puppeteer for scraping. The extracted information was sent to MongoDB, I extracted it with the given word "transport".
+
+
+For each search result, it is necessary to extract the following information from each page:
+- Main title (ex: Ordinary Bill (L) 103/2019)
+- Date
+- Situation
+- Subject matter
+- Author
+- Menu
+- Project Process (Project, Entry, Deadline, Return)
+
 # node-typescript-boilerplate
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
